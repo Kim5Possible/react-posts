@@ -1,0 +1,12 @@
+.App {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.error {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: #dc2626;
+}

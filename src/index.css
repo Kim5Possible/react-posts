@@ -1,0 +1,29 @@
+@import url("./reset.css");
+
+:root {
+  --blue: rgba(23, 74, 255, 0.7);
+  --purple: rgba(205, 123, 255, 0.5);
+  --pink: rgba(255, 41, 195, 0.6);
+  --gradient-bg: linear-gradient(
+    30deg,
+    var(--blue) 0%,
+    var(--purple) 60%,
+    var(--pink) 100%
+  );
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e9e9e9;
+  color: #1a1a1a;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
